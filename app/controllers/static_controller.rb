@@ -5,7 +5,7 @@ class StaticController < ApplicationController
   def about
   end
 
-  def class
+  def classes
   end
 
   def contact
