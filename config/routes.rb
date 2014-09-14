@@ -1,5 +1,4 @@
 TutorSite::Application.routes.draw do
-  get 'static/home'
   get 'static/about'
   get 'static/classes'
   get 'static/contact'
@@ -7,7 +6,7 @@ TutorSite::Application.routes.draw do
   get 'static/instructors'
   get 'static/testimonial'
 
-  root 'static#home'
+  root 'static#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with 'rake routes'.
 

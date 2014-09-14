@@ -1,0 +1,72 @@
+html, body{
+
+}
+#container{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: georgia;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#form{
+	width: 100%;
+	max-width: 400px;
+	float: left;
+}
+#formfname{
+	font-size: 1.2em;
+	border: 0px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #1c1c1c;
+	width: 66%;
+}
+#formlname{
+	font-size: 1.2em;
+	border: 0px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #1c1c1c;
+	margin-left: 1%;
+	width: 30%;
+}
+#formemail{
+	font-size: 1.2em;
+	border: 0px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #1c1c1c;
+	width: 98%;
+}
+#formmessage{
+	font-size: 1.2em;
+	border: 0px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	height: auto;
+	border-bottom: 2px solid #1c1c1c;
+	width: 98%;
+	resize: none;
+}
+#emailwrap{
+	width: 100%;
+	max-width: 550px;
+	margin-left: 30px;
+	float: left;
+	border: 2px solid #1c1c1c;
+	height: 300px;
+}
+#locationwrap{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+.loc{
+	width: 100%;
+	float: left;
+	max-width: 480px;
+	margin-right: 20px;
+	height: 300px;
+	background: #069;
+}

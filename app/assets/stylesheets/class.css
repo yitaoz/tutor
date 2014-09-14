@@ -1,0 +1,46 @@
+html, body{
+
+}
+#container{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: georgia;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#content h3{
+  font-size: 4em;
+  letter-spacing: 0.02em;
+  color: #e07f27;
+  margin: 0px;
+  margin-top: 10px;
+  width: 100%;
+  float: left;
+  text-transform: uppercase;
+  font-family: helvetica, san-serif;
+}
+.classcont{
+  font-size: 1.5em;
+  width: 100%;
+  float: left;
+  margin-top: -25px;
+  text-align: left;
+}
+.classes{
+	width: 32%;
+	margin-left: 1%;
+	float: left;
+}
+.classes img{
+	width: 100%;
+}
+.imgtit{
+  color: #e07f27;
+  text-transform: uppercase;
+  font-family: helvetica, san-serif;
+	text-align: left;
+}
+.imgtext{
+	text-align: left;
+}

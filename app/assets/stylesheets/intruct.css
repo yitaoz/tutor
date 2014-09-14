@@ -1,0 +1,91 @@
+html, body{
+
+}
+#container{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: georgia;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#h3content{
+  font-size: 4em;
+  letter-spacing: 0.02em;
+  color: #e07f27;
+  margin: 0px;
+  margin-top: 10px;
+  width: 100%;
+  float: left;
+  text-transform: uppercase;
+  font-family: helvetica, san-serif;
+}
+#content p{
+  font-size: 1.5em;
+  float: right;
+  width: 100%;
+  margin-top: -25px;
+  margin-left: 30px;
+}
+#h3team{
+  font-size: 3em;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: helvetica, san-serif;
+  color: #e07f27;
+}
+.instcont{
+  float: left;
+  width: 29%;
+  padding: 1.5%;
+  margin-left: 1%;
+  margin-top: 1%;
+  height: 550px;
+  background: #f6f6f6;
+}
+.instcont h3{
+  font-family: helvetica, san-serif;
+  font-size: 1.5em;
+  margin: 0;
+  margin-top: 10px;
+  color: #e07f27;
+}
+.instcont h4{
+  margin: 0;
+  color: #e07f27;
+  font-family: helvetica, san-serif;
+  font-weight:600;
+}
+.instcont p{
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+.instcont img{
+  width: 100%;
+}
+.instcont:nth-child(2n){
+}
+#join{
+  font-size: 1.8em;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  font-family: helvetica, san-serif;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  border-radius: 5px;
+  color: #f6f6f6;
+  background: #7bd78f;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 30%;
+  max-width: 280px;
+  transition: 0.3s;
+}
+a{
+  text-decoration: none;
+}
+#join:hover{
+   background: #e07f27;
+   transition: 0.3s;
+}

@@ -1,0 +1,68 @@
+html, body{
+
+}
+#container{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: georgia;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.testimon{
+	width: 100%;
+	max-width: 490px;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+}
+.testimon:nth-child(2n+0){
+	margin-right: 0px;
+}
+.student img{
+	width: 100%;
+}
+.student{
+	width: 200px;
+	float: left;
+}
+.student h3{
+	color: #e07f27;
+	font-family: helvetica, san-serif;
+	font-size: 1.5em;
+	margin: 0px;
+	margin-top: 10px;
+}
+.student p{
+	margin-top: 2px;
+}
+.bubble{
+	float: left;
+	position: relative;
+	width: 280px;
+	height: 200px;
+	padding: 0px;
+	left: -10px;
+	background: #e07f27;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.bubble:after{
+    content: "";
+    position: absolute;
+    top: 80px;
+    left: -15px;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #e07f27;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+.bubble p{
+	margin: 20px;
+	margin-top: 15px;
+	font-size: 1.5em;
+	color: #f6f6f6;
+}

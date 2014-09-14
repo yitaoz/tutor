@@ -1,2 +1,45 @@
-<h1>Static#contact</h1>
-<p>Find me in app/views/static/contact.html.erb</p>
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/contact.css">
+<title>Home</title>
+<meta name="viewport" content="initial-scale=1, user-scalable=yes" />
+</head>
+
+<body>
+<header class="clearfix">
+    <div id="logo"></div>
+    <p id="headnum">+65 9868 8161</p>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="instructors.html">Instructors</a></li>
+            <li><a href="class.html">Classes</a></li>
+            <li><a href="testimonial.html">Testimonial</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>    
+        </ul>
+    </nav>
+</header>
+<div id="container" class="clearfix">
+    <div id="form">
+        <form action="post">
+            <input id="formfname" name="fname" type="text" placeholder="First name">
+            <input id="formlname" name="lname" type="text" placeholder="Last name">
+            <input id="formemail" name="email" type="email" placeholder="John@gmail.com">
+            <textarea id="formmessage" placeholder="Your message here"></textarea>
+        </form>
+    </div>
+    <div id="emailwrap">
+    </div>
+    <div id="locationwrap">
+        <div class="loc"></div>
+        <div class="loc"></div>
+    </div>
+</div>
+<footer><p>&copy 2014 lightpoint</p></footer>
+</body>
+</html>
+

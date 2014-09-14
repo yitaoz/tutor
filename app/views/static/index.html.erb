@@ -1,2 +1,100 @@
-<h1>Static#index</h1>
-<p>Find me in app/views/static/index.html.erb</p>
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/bjqs.css">
+<title>Home</title>
+<meta name="viewport" content="initial-scale=1, user-scalable=yes" />
+</head>
+
+<body>
+    <header class="clearfix">
+        <div id="logo"></div>
+        <p id="headnum">+65 9868 8161</p>
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="class.html">Classes</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>    
+            </ul>
+        </nav>
+    </header>
+    <div id="container">
+    <!--  Outer wrapper for presentation only, this can be anything you like -->
+      <div id="banner">
+
+        <!-- start Basic Jquery Slider -->
+        <ul class="bjqs">
+          <li><img src="img/banner01.jpg" title="Automatically generated caption"></li>
+          <li><img src="img/banner02.jpg" title="Automatically generated caption"></li>
+          <li><img src="img/banner03.jpg" title="Automatically generated caption"></li>
+        </ul>
+        <!-- end Basic jQuery Slider -->
+
+      </div>
+    <div id="content" class="clearfix">
+        <h3>Commited for tuition</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+        </br></br>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+    </div>
+    <h3 id="testitit">See what people say about us!</h3>
+    <div id="testi">
+    <ul id="testimon">
+        <li>
+            <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h3>
+            <p>-hello</p>
+        </li>
+        <li>
+            <h3>asdsfderqrwewe!</h3>
+            <p>-hello</p>
+        </li>
+        <li>
+            <h3>asdsfdwer!</h3>
+            <p>-hello</p>
+        </li>
+        <li>
+            <h3>asdsfewrweewrwed!</h3>
+            <p>-hello</p>
+        </li>
+        <li>
+            <h3>asdsweqwefd!</h3>
+            <p>-hello</p>
+        </li>
+    </ul>
+    </div>
+    <!--<div id="convinced">
+        <h3 id="contit">Convinced? Sign up now!</h3>
+        <form>
+            <p><label for name>Name:</label><input name="name" type="text"></p>
+            <p><label for email>Email:</label><input name="email" type="email"></p>
+        </form>
+    </div> -->
+</div>
+<footer><p>&copy 2014 lightpoint</p></footer>
+</body>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+<script src="js/bjqs-1.3.min.js"></script>
+<script src="js/ticker.js"></script>
+<script>
+    $(document).ready(function($) {
+      $('#testimon').list_ticker({
+        speed:3500,
+        effect:'fade'
+      });
+	    $('#banner').bjqs({
+        height      : 400,
+        width       : 1000,
+        responsive  : true
+      });
+    });
+
+</script>
+</html>
+

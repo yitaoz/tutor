@@ -1,0 +1,141 @@
+html, body{
+  width: 100%;
+  height: 100%;
+}
+#container{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: georgia;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#banner{
+  max-width: 1000px;
+  height: 400px;
+  border: 1px solid #1c1c1c;
+}
+#content{
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+#content h3{
+  font-size: 4em;
+  line-height: 0.75em;
+  letter-spacing: 0.02em;
+  color: #e07f27;
+  margin: 0px;
+  margin-top: 30px;
+  width: 100%;
+  float: left;
+  text-transform: uppercase;
+  font-family: helvetica, san-serif;
+}
+#content p{
+  font-size: 1.5em;
+  float: right;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: -15px;
+}
+#testitit{
+  color: #e07f27;
+  letter-spacing: 0.02em;
+  font-family: helvetica, san-serif;
+  font-size: 2em;
+}
+#testi{
+  width: calc(100%-2px);
+  height: 250px;
+  background: #f6f6f6;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+#testimon li {
+  width: 100%;
+  margin-top: 0px;
+  list-style:none;
+  font: 200 3em/0.8 Helvetica, sans-serif;
+  color: #1c1c1c;
+  text-align: center;
+}
+#testimon li h3{
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.7em;
+  line-height: 1.1em;
+  margin: 0 auto;
+  margin-top: 0px;
+  padding-top: 40px;
+}
+#testimon li p{
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #656565;
+  text-align: right;
+  font-size: 0.4em;
+}
+#contit{
+  font-size: 2em;
+}
+ul .bjqs-prev a, ul .bjqs-next a{
+  text-decoration: none;
+  padding: 15px 15px 13px 10px;
+  color: #e07f27;
+  font-size: 2px;
+}
+ul .bjqs-prev a{
+  background: url(../img/prev.png);
+}
+ul .bjqs-next a{
+  background: url(../img/next.png);
+}
+.bjqs-caption{
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+  color: #e07f27;
+}
+.bjqs-markers{
+}
+.bjqs-markers li{
+  width: 20px;
+  margin-left: 10px;
+  background: #1c1c1c;
+  border-radius: 40px;
+  font-size: 9px;
+  padding: 1px 3px 1px 3px;
+}
+.bjqs-markers li a{
+  text-decoration: none;
+  border-radius: 20px;
+  color: #1c1c1c;
+} 
+.bjqs-markers .active-marker{
+  width: 20px;
+  background: #e07f27;
+  margin-left: 10px;
+}
+.bjqs-markers .active-marker a{
+  color: #e07f27;
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+}
+@media only screen and (max-width: 767px) {
+  #container{
+    width: 95%;
+  }
+  #banner{
+    max-width: 280px;
+  }
+  #testimon li h3{
+    font-size: 0.5em;
+    max-width: 280px;
+    margin-left: 0px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+}
