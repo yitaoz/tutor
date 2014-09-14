@@ -1,0 +1,20 @@
+Searching 11 files for "url"
+
+/Users/Yitao/Documents/Business/TutorSite/app/assets/stylesheets/header.css:
+   13    width: 160px;
+   14    height: 60px;
+   15:   background: url(logo.png);
+   16    margin-bottom: 20px;
+   17  }
+
+/Users/Yitao/Documents/Business/TutorSite/app/assets/stylesheets/index.css:
+   90  }
+   91  ul .bjqs-prev a{
+   92:   background: url(prev.png);
+   93  }
+   94  ul .bjqs-next a{
+   95:   background: url(next.png);
+   96  }
+   97  .bjqs-caption{
+
+3 matches across 2 files
